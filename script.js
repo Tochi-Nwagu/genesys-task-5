@@ -1,7 +1,7 @@
 "use strict";
-// Note not a beginner
+// Note not really a beginner
 
-console.log("javascript is awesome");
+
 let playAgain;
 do {
   const questions = [
@@ -61,3 +61,4 @@ do {
 {
   console.log("Thanks for playing");
 }
+
