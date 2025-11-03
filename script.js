@@ -40,9 +40,11 @@ do {
       userInput.toLowerCase() === questions[i].answer.toLowerCase()
     ) {
       alert("Correct");
+      console.log("correct!");
       score++;
     } else {
       alert("Wrong answer");
+      console.log("wrong answer")
     }
   }
 
@@ -61,4 +63,5 @@ do {
 {
   console.log("Thanks for playing");
 }
+
 
